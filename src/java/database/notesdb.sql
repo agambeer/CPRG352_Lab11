@@ -36,15 +36,15 @@ INSERT INTO `role` VALUES (1, 'system admin');
 INSERT INTO `role` VALUES (2, 'regular user');
 
 INSERT INTO `user` (`email`,`active`,`first_name`,`last_name`,`password`,`role`)
-VALUES ('study.extra.email+admin@gmail.com', true, 'Admin','Admin', 'password', 1);
+	VALUES ('sait.cprg.352+admin@gmail.com', true, 'Admin','Admin', 'password', 1);
 INSERT INTO `user` (`email`,`active`,`first_name`,`last_name`,`password`,`role`)
-VALUES ('study.extra.email+anne@gmail.com', true, 'Anne','Annerson', 'password', 2);
+	VALUES ('sait.cprg.352+anne@gmail.com', true, 'Anne','Annerson', 'password', 2);
 INSERT INTO `user` (`email`,`active`,`first_name`,`last_name`,`password`,`role`)
-VALUES ('study.extra.email+barb@gmail.com', true, 'Barb','Barber', 'password', 2);
+	VALUES ('sait.cprg.352+barb@gmail.com', true, 'Barb','Barber', 'password', 2);
 
 INSERT INTO `note` (`Title`, `Contents`, `Owner`)
-VALUES ('Quote #1', 'Writing is nature''s way of letting you know how sloppy your thinking is.', 'study.extra.email+anne@gmail.com');
+    VALUES ('Quote #1', 'Writing is nature''s way of letting you know how sloppy your thinking is.', 'sait.cprg.352+anne@gmail.com');
 INSERT INTO `note` (`Title`, `Contents`, `Owner`)
-VALUES ('Another quote', '"Java is to JavaScript as ham is to hamster." -  Jeremy Keith', 'study.extra.email+anne@gmail.com');
+    VALUES ('Another quote', '"Java is to JavaScript as ham is to hamster." -  Jeremy Keith', 'sait.cprg.352+anne@gmail.com');
 INSERT INTO `note` (`Title`, `Contents`, `Owner`)
-VALUES ('Barb''s Note', 'Anne should not see this note.', 'study.extra.email+barb@gmail.com');
+    VALUES ('Barb''s Note', 'Anne should not see this note.', 'sait.cprg.352+barb@gmail.com');
